@@ -12,7 +12,7 @@ const handleDownload = async () => {
     await new Promise(resolve => setTimeout(resolve, 1500));
 
     const link = document.createElement('a');
-    link.href = '/Augustine Manu-Frimpong_Resume.pdf';
+    link.href = 'images/Augustine Manu-Frimpong_Resume.pdf';
     link.download = 'Augustine_Manu-Frimpong_Resume.pdf';
     document.body.appendChild(link);
     link.click(); 
