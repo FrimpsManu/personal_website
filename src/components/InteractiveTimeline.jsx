@@ -14,7 +14,7 @@ const InteractiveTimeline = () => {
       company: 'Louisiana Tech University',
       location: 'Ruston, LA',
       type: 'work',
-      description: '• Developed an ℓ₁ trend filtering model in Python and PyTorch...',
+      description: 'Developed an ℓ₁ trend filtering model in Python and PyTorch to extract structural signals from S&P 500 data, outperforming the HP filter by 25% in volatility shift detection and enabling robust signal isolation for quant trading and ML tasks.',
       highlights: [
         'Improved anomaly detection precision by 40% and reduced preprocessing time by 30%',
         'Built scalable optimization pipeline using Python, NumPy, PyTorch, and CVXPY'
@@ -30,7 +30,7 @@ const InteractiveTimeline = () => {
       company: 'Notion x Grambling Hackathon',
       location: 'Grambling, LA',
       type: 'achievement',
-      description: 'Co-organized the Notion x Grambling hackathon...',
+      description: 'Co-organized the Notion x Grambling hackathon with the Notion Campus Ambassador Leader (Andrew Emeghebo), bringing together 60+ students to innovate on real-world problems using Notions platform.',
       highlights: [
         'Led a 10+ member organizing team',
         'Secured $3,000+ in sponsorship',
@@ -49,11 +49,10 @@ const InteractiveTimeline = () => {
       company: 'Grambling State University Hackathon',
       location: 'Grambling, LA',
       type: 'achievement',
-      description: 'First place for building a real-time language translation app...',
+      description: 'First place for building a real-time language translation app "Edulingo" across 3 languages',
       highlights: [
         '98% translation accuracy using OpenAI API',
-        'Built full-stack solution with Flask, JS, and TTS',
-        'Created dashboard for portfolio management'
+        'Built full-stack solution with Flask, JS, and TTS'
       ],
       technologies: ['Python(Flask)', 'JavaScript', 'Web Speech API', 'OpenAI API', 'HTML/CSS'],
       icon: Award,
@@ -66,7 +65,7 @@ const InteractiveTimeline = () => {
       company: 'Grambling State University',
       location: 'Grambling, LA',
       type: 'work',
-      description: 'Delivered technical support for 50+ campus devices...',
+      description: 'Delivered technical support for 50+ campus devices, streamlining OS and software deployments to improve setup speed by 90% and reduce issue resolution time by 85%.',
       highlights: [
         'Provided tech support for 50+ devices',
         'Improved setup speed by 90%',
@@ -101,11 +100,11 @@ const InteractiveTimeline = () => {
       company: 'BLK Capital Management',
       location: 'Remote',
       type: 'work',
-      description: 'Conducted equity research and valuation modeling...',
+      description: 'Conducted comprehensive equity research and financial analysis for public companies, building sophisticated valuation models and investment theses.',
       highlights: [
         'Analyzed 10+ companies',
         'Built DCF valuation models',
-        'Created investment theses'
+        'Created investment theses and stock pitches'
       ],
       technologies: ['Python', 'Excel', 'Financial Modeling', 'DCF Analysis', 'Equity Research'],
       icon: Code,

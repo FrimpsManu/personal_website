@@ -46,7 +46,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
-                I have had the chance to grow through experiences with teams at eBay, Louisiana Tech (NSF REU), and BLK Capital, combining my interests in AI, data, finance, and education to build scalable, human-centered solutions.
+                I have had the chance to grow through experiences with teams at eBay, Notion, Louisiana Tech (NSF REU), and BLK Capital, combining my interests in AI, data, finance, and education to build scalable, human-centered solutions.
               </p>
 
               <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
