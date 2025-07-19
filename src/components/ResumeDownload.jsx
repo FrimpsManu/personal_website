@@ -5,33 +5,31 @@ const ResumeDownload = () => {
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadComplete, setDownloadComplete] = useState(false);
 
-  const handleDownload = async () => {
-    setIsDownloading(true);
+const handleDownload = async () => {
+  setIsDownloading(true);
 
-    try {
-      // Simulate download process
-      await new Promise(resolve => setTimeout(resolve, 1500));
+  try {
+    await new Promise(resolve => setTimeout(resolve, 1500));
 
-      // Create a mock PDF download link
-      const link = document.createElement('a');
-      link.href = '#'; // Replace with actual PDF URL when available
-      link.download = 'Augustine_Manu-Frimpong_Resume.pdf';
-      document.body.appendChild(link);
-      // link.click(); // Uncomment this when a real file URL is used
-      document.body.removeChild(link);
+    const link = document.createElement('a');
+    link.href = '/Augustine Manu-Frimpong_Resume.pdf';
+    link.download = 'Augustine_Manu-Frimpong_Resume.pdf';
+    document.body.appendChild(link);
+    link.click(); 
+    document.body.removeChild(link);
 
-      setDownloadComplete(true);
+    setDownloadComplete(true);
 
-      // Reset after 3 seconds
-      setTimeout(() => {
-        setDownloadComplete(false);
-      }, 3000);
-    } catch (error) {
-      console.error('Download failed:', error);
-    } finally {
-      setIsDownloading(false);
-    }
-  };
+    setTimeout(() => {
+      setDownloadComplete(false);
+    }, 3000);
+  } catch (error) {
+    console.error('Download failed:', error);
+  } finally {
+    setIsDownloading(false);
+  }
+};
+
 
   return (
     <button
