@@ -25,9 +25,9 @@ const About = () => {
             {/* Profile Image */}
             <div className="mb-8 lg:mb-0 flex justify-center lg:justify-start">
               <div className="relative">
-                <div className="w-64 h-80 rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-500/20 via-tertiary-500/20 to-secondary-500/20 p-2 animate-gradient-xy">
+                <div className="w-94 h-[40rem] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-500/20 via-tertiary-500/20 to-secondary-500/20 p-2 animate-gradient-xy">
                   <img 
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                    src="/images/Augustine-ManuFrimpong.jpg" 
                     alt="Augustine Manu-Frimpong working on a project"
                     className="w-full h-full object-cover rounded-xl"
                   />

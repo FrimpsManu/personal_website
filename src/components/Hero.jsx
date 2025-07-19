@@ -37,7 +37,7 @@ const Hero = () => {
           {/* Profile Picture */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white dark:border-neutral-700 shadow-xl bg-gradient-to-br from-primary-500 via-tertiary-500 to-secondary-500 p-1 mt-4 animate-gradient-xy">
+              <div className="w-48 h-55 md:w-68 md:h-68 rounded-full overflow-hidden border-4 border-white dark:border-neutral-700 shadow-xl bg-gradient-to-br from-primary-500 via-tertiary-500 to-secondary-500 p-1 mt-4 animate-gradient-xy">
                 <img
                   src="/images/Augustine-ManuFrimpong.jpg"
                   alt="Augustine Manu-Frimpong - Full Stack Developer"
