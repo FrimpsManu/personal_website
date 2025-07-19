@@ -84,7 +84,7 @@ const InteractiveTimeline = () => {
       type: 'education',
       description: 'CS education focused on software engineering, algorithms, and DS.',
       highlights: [
-        'Magna Cum Laude, 3.96/4.0 GPA',
+        'Summa Cum Laude, 3.96/4.0 GPA',
         '4x President List',
         'Led campus event system project',
         'Capstone: "Coming Soon"'
