@@ -14,7 +14,7 @@ const InteractiveTimeline = () => {
       company: 'Louisiana Tech University',
       location: 'Ruston, LA',
       type: 'work',
-      description: 'Developed an ℓ₁ trend filtering model in Python and PyTorch to extract structural signals from S&P 500 data, outperforming the HP filter by 25% in volatility shift detection and enabling robust signal isolation for quant trading and ML tasks.',
+      description: 'Developed an ℓ₁ trend filtering model in Python and PyTorch to extract structural signals from S&P 500 data, outperforming the HP filter by 35% in volatility shift detection accuracy.',
       highlights: [
         'Improved anomaly detection precision by 40% and reduced preprocessing time by 30%',
         'Built scalable optimization pipeline using Python, NumPy, PyTorch, and CVXPY'

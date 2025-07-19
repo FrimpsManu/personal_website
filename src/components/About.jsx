@@ -5,7 +5,7 @@ import AnimatedSection from './AnimatedSection';
 const About = () => {
   const interests = [
     { icon: Code2, label: 'Clean Code', description: 'Writing maintainable, scalable solutions' },
-    { icon: Coffee, label: 'Coffee Enthusiast', description: 'Fueled by great coffee and creativity' },
+    { icon: Coffee, label: 'Coffee Chat Enthusiast', description: 'Fueled by great coffee chat and creativity' },
     { icon: Calculator, label: 'Mathematics', description: 'Applying mathematical concepts to solve complex problems' },
     { icon: Gamepad2, label: 'Gaming', description: 'Exploring virtual worlds and game design' }
   ];
