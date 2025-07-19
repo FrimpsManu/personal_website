@@ -12,7 +12,7 @@ Welcome to my personal developer portfolio website, built with **React** and **V
 - Projects
 - Timeline (Eience)
 - Hackathons (Coming Soon)
-  Dark mode
+- Dark mode
 - ✅ Fully responsive design
 
 ## 🛠️ Tech Stack
@@ -20,7 +20,7 @@ Welcome to my personal developer portfolio website, built with **React** and **V
 - **Languages**: JavaScript, HTML
 - **Frontend**: React + Vite
 - **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
+- **Animations**: Custom Tailwind CSS animations
 - **Forms**: EmailJS
 - **Deployment**: Netlify
 
