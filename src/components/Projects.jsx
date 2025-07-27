@@ -51,6 +51,7 @@ const Projects = () => {
       description: 'Modern, inclusive food reservation web application designed to reduce food waste and improve access to fresh meals.',
       longDescription: 'Zamani is a comprehensive food reservation platform built with React and Supabase that connects food providers with users in need...',
       image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+      Team: 3,
       technologies: ['React', 'Supabase', 'Tailwind CSS', 'OpenAI API', 'PostgreSQL', 'Realtime'],
       githubUrl: 'https://github.com/FrimpsManu/Amazon-x-CodePath-Challenge',
       demoUrl: 'https://zamanifoodsafety.netlify.app/',
