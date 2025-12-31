@@ -13,7 +13,7 @@ Welcome to my personal developer portfolio website, built with **React** and **V
 - Timeline (Eience)
 - Hackathons (Coming Soon)
 - Dark mode
-- ✅ Fully responsive design
+- Fully responsive design
 
 ## 🛠️ Tech Stack
 
