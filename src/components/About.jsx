@@ -44,8 +44,7 @@ const About = () => {
               <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
                 Hey! I am a Computer Science & Maths student interested in systems, infrastructure, and AI, focused on building scalable products that connects technology with real-world impact.I combine skills in AI, data, and full stack development to create tools that solve meaningful problems, from backend infrastructure to user-facing applications. I am especially driven by challenges at the intersection of software, data, and business.
               </p>
-              
-
+            
               <div className="flex flex-wrap gap-3 pt-4">
                 {['AI/ML', 'Quant trade/ research', 'Full-Stack Dev', 'Data Science/ Analytics', 'Community Building', 'Education Technology'].map((tech) => (
                   <span
