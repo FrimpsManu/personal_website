@@ -47,7 +47,7 @@ const About = () => {
               
 
               <div className="flex flex-wrap gap-3 pt-4">
-                {['AI/ML', 'Quantitative trade/ research', 'Full-Stack Development', 'Data Science/ Analytics', 'Community Building', 'Education Technology'].map((tech) => (
+                {['AI/ML', 'Quant trade/ research', 'Full-Stack Dev', 'Data Science/ Analytics', 'Community Building', 'Education Technology'].map((tech) => (
                   <span
                     key={tech}
                     className="px-4 py-2 bg-gradient-to-r from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30 text-primary-600 dark:text-primary-400 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-md"
