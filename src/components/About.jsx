@@ -42,20 +42,9 @@ const About = () => {
           <AnimatedSection animation="fadeInRight">
             <div className="space-y-6">
               <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
-                Hey! I am Augustine Manu-Frimpong — a Computer Science, Math & Business student with a love for turning big ideas into real-world impact. Whether it is building an offline AI tutor (in progress) for underserved communities or engineering real-time market data systems, I'm all about using tech to solve meaningful problems.
+                Hey! I am a Computer Science & Maths student interested in systems, infrastructure, and AI, focused on building scalable products that connects technology with real-world impact.I combine skills in AI, data, and full stack development to create tools that solve meaningful problems, from backend infrastructure to user-facing applications. I am especially driven by challenges at the intersection of software, data, and business.
               </p>
               
-              <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
-                I have had the chance to grow through experiences with teams at eBay, Notion, Louisiana Tech (NSF REU), and BLK Capital, combining my interests in AI, data, finance, and education to build scalable, human-centered solutions.
-              </p>
-
-              <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
-                Beyond the code, I love to play soccer, community advocate, and lifelong learner who believes that tech should empower everyone — not just a few.
-              </p>
-
-              <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed transition-colors duration-300">
-                Let's connect — whether you are building something ambitious, looking to collaborate, or just want to swap ideas about AI, equity, or good jollof.
-              </p>
 
               <div className="flex flex-wrap gap-3 pt-4">
                 {['AI/ML', 'Quantitative trade/ research', 'Full-Stack Development', 'Data Science/ Analytics', 'Community Building', 'Education Technology'].map((tech) => (
